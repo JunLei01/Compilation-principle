@@ -1,0 +1,9 @@
+digraph G {
+	closure0 -> closure0 [label=a]
+	closure0 -> closure1 [label=b]
+	closure1 -> closure0 [label=a]
+	closure1 -> closure2 [label=b]
+	closure2 -> closure1 [label=b]
+	closure2 -> closure2 [label=a]
+	closure0 [shape=doublecircle]
+}

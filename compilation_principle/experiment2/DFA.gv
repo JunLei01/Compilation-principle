@@ -1,0 +1,4 @@
+digraph G {
+	closure0 [color=red]
+	"closure-1" [shape=doublecircle]
+}
