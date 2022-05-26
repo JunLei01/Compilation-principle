@@ -246,6 +246,7 @@ class SLR1(object):
     #   打印项目规范族
     def print_cluster(self):
         i = 0
+        # print(self.search_items)
         for family in self.search_items:
             if family:
                 print("I" + str(i))

@@ -1,4 +1,4 @@
 S' -> S
-S -> C c
-C -> c C
-C -> d
+S -> S ; B | B
+B -> B a A | A
+A -> b ( S )
